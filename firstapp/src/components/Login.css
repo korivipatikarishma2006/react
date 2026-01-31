@@ -1,13 +1,17 @@
-
-/* Full screen background */
 .login-bg {
   min-height: 100vh;
   background: url("/your-image-path.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
-
+body{
+  background-image: url("https://www.shutterstock.com/image-vector/online-electronics-shopping-delivery-banner-260nw-2282200763.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* Glass card */
 .login-card {
   width: 100%;
